@@ -1,0 +1,58 @@
+body {
+  background: #CCCCCC;
+}
+
+div.fullscreen {
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+// Couldn't get this working for the map with non-absolute height
+div.topThreeQuarters {
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 800px;
+}
+
+.bottomQuartile {
+  position: absolute; 
+  height: 25vh;
+  width: 100%;
+  transform: translate(0, 75vh);
+  background: blue;
+}
+
+#menu-outer {
+    height: 84px;
+
+}
+
+.table {
+    display: table;   /* Allow the centering to work */
+    margin: 0 auto;
+}
+
+ul#horizontal-list {
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+    }
+
+ul#horizontal-list li {
+    display: inline;
+}
+
+.circleBase {
+    border-radius: 50%;
+}
+.circleInside {
+    width: 10px;
+    height: 10px;
+    background: aqua;
+    border: 2px solid blue;
+}
